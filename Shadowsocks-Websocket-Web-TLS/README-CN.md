@@ -1,12 +1,13 @@
 # 这个例子同样适用于 Shadowsocks 客户端+V2Ray-Plugins
 
-> 完整的设置还需要一个 web 服务器解密 TLS 后,将请求转发给监听在 127.0.0.1:10000 的 v2ray。由于 [https://guide.v2fly.org/advanced/wss_and_web.html#%E9%85%8D%E7%BD%AE](https://guide.v2fly.org/advanced/wss_and_web.html#%E9%85%8D%E7%BD%AE) 已经有了服务器的设置这里不再赘述，可以按需参考白话文教程里的 web 服务器设置。
+> 完整的设置还需要一个 web 服务器解密 TLS 后,将请求转发给监听在 127.0.0.1:10000 的 v2ray。由于 [https://guide.v2fly.org/advanced/wss_and_web.html#%E9%85%8D%E7%BD%AE](https://e.v2fly.org/advanced/wss_and_web.html#%E9%85%8D%E7%BD%AE) 已经有了服务器的设置这里不再赘述，可以按需参考白话文教程里的 web 服务器设置。
 
 ## 客户端配置示意
 
 你应该按照服务端的设置修改对应的参数。
 
-### shadowsocks windows 客户端关键部分示例如下
+### shadowsocks ssh
+windows 客户端关键部分示例如下
 
 > 必须设置 mux=0，否则无法正常连接服务器。如果需要使用 mux 可以参考本文件夹里的[Domainsocket or Redirect Approach](./Domainsocket-or-Redirect-Approach/)的方法。
 
